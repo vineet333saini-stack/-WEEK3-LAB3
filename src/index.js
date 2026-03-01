@@ -64,3 +64,9 @@ function main() {
 }
 
 if (require.main === module) main();
+
+// Export functions for unit testing
+module.exports = {
+  calculate,
+  parseNumbers,
+};

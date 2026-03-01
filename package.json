@@ -7,7 +7,11 @@
     "calc": "src/index.js"
   },
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.6.0"
   },
   "author": "",
   "license": "MIT"
