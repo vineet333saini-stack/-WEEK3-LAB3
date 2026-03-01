@@ -1,3 +1,22 @@
+# CLI Calculator
+
+Simple Node.js CLI calculator supporting four basic operations: add, subtract, multiply, divide.
+
+Usage:
+
+```bash
+node src/index.js <operation> <num1> <num2> [num3 ...]
+# or if installed as a bin: calc <operation> <num1> <num2>
+```
+
+Examples:
+
+```bash
+node src/index.js add 1 2 3       # -> 6
+node src/index.js subtract 10 4 1 # -> 5
+node src/index.js multiply 2 3 4  # -> 24
+node src/index.js divide 20 5     # -> 4
+```
 # Create applications with the Copilot CLI
 
 <img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />

@@ -1,0 +1,14 @@
+{
+  "name": "create-calc-app",
+  "version": "0.1.0",
+  "description": "Simple CLI calculator supporting add, subtract, multiply, divide",
+  "main": "src/index.js",
+  "bin": {
+    "calc": "src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
